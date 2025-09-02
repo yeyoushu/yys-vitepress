@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>通知组件 | yys-element-compents-docm</title>
+    <meta name="description" content="文档">
+    <link rel="stylesheet" href="/assets/style.d98c442a.css">
+    <link rel="modulepreload" href="/assets/index.b8612c8f.js">
+    <link rel="modulepreload" href="/assets/framework.38d2f590.js">
+    <link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js">
+    <link rel="modulepreload" href="/assets/index.b12f3acf.js">
+    <link rel="modulepreload" href="/assets/Home.b714bc4a.js">
+    <link rel="modulepreload" href="/assets/style.0d57b8bf.js">
+    <link rel="modulepreload" href="/assets/index.es.455c20b2.js">
+    <link rel="modulepreload" href="/assets/notification_index.md.0ecafd5d.lean.js">
+    <link rel="modulepreload" href="/assets/app.506e725f.js">
+    <meta name="twitter:title" content="通知组件 | yys-element-compents-docm">
+    <meta property="og:title" content="通知组件 | yys-element-compents-docm">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme"><header class="nav-bar" data-v-675d8756><div class="sidebar-button" data-v-675d8756><svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z" class></path></svg></div><a class="nav-bar-title" href="/" aria-label="yys-element-compents-docm, back to home" data-v-675d8756 data-v-4a583abe><!----> yys-element-compents-docm</a><div class="flex-grow" data-v-675d8756></div><div class="nav" data-v-675d8756><nav class="nav-links" data-v-675d8756 data-v-eab3edfe><!--[--><div class="item" data-v-eab3edfe><div class="nav-link" data-v-eab3edfe data-v-b8818f8c><a class="item" href="/" data-v-b8818f8c>首页 <!----></a></div></div><div class="item" data-v-eab3edfe><div class="nav-link" data-v-eab3edfe data-v-b8818f8c><a class="item isExternal" href="https://yeyoushu.github.io/yys-element-components/#/Home" target="_blank" rel="noopener noreferrer" data-v-b8818f8c>github站点 <svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-b8818f8c><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div></div><!--]--><!----><!----></nav></div><!--[--><!--]--></header><aside class="sidebar" data-v-83e92a68><nav class="nav-links nav" data-v-83e92a68 data-v-eab3edfe><!--[--><div class="item" data-v-eab3edfe><div class="nav-link" data-v-eab3edfe data-v-b8818f8c><a class="item" href="/" data-v-b8818f8c>首页 <!----></a></div></div><div class="item" data-v-eab3edfe><div class="nav-link" data-v-eab3edfe data-v-b8818f8c><a class="item isExternal" href="https://yeyoushu.github.io/yys-element-components/#/Home" target="_blank" rel="noopener noreferrer" data-v-b8818f8c>github站点 <svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-b8818f8c><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div></div><!--]--><!----><!----></nav><!--[--><!--]--><ul class="sidebar-links" data-v-83e92a68><!--[--><li class="sidebar-link"><a class="sidebar-link-item" href="/intro/">介绍</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/quickstart/">快速上手</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/chooseIcon/">图标选择</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/chooseArea/">省市区选择</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/chooseTrend/">趋势标记</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item active" href="/notification/">通知菜单</a><ul class="sidebar-links"><li class="sidebar-link"><a class="sidebar-link-item" href="#通知组件">通知组件</a><ul class="sidebar-links"><li class="sidebar-link"><a class="sidebar-link-item" href="#按需引入">按需引入</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#基本用法">基本用法</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#代码示例">代码示例</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#api">API</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#事件props">事件props</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#插槽">插槽</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#api-1">API</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#事件list">事件list</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#listoptions-数据格式">ListOptions 数据格式</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#listitem-数据格式">listItem 数据格式</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#actionoptions-数据格式">ActionOptions 数据格式</a><!----></li></ul></li></ul></li><li class="sidebar-link"><a class="sidebar-link-item" href="/list/">通知列表</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/chooseMenu/">导航菜单</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/chooseProgress/">进度条菜单</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/chooseTime/">时间选择菜单</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/chooseData/">日期选择</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/chooseCity/">城市选择器</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/chooseFrom/">表单组件</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/modalFrom/">弹框表单组件</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/chooseTable/">表格组件</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/chooseCalendar/">日历组件</a><!----></li><!--]--></ul><!--[--><!--]--></aside><!-- TODO: make this button accessible --><div class="sidebar-mask"></div><main class="page" data-v-7eddb2c4><div class="container" data-v-7eddb2c4><!--[--><!--]--><div style="position:relative;" class="content" data-v-7eddb2c4><div><h2 id="通知组件" tabindex="-1">通知组件 <a class="header-anchor" href="#通知组件" aria-hidden="true">#</a></h2><p>显示通知菜单列表，支持多种自定义。</p><h3 id="按需引入" tabindex="-1">按需引入 <a class="header-anchor" href="#按需引入" aria-hidden="true">#</a></h3><div class="language-TS"><pre><code>
+<span class="token keyword">import</span> notification <span class="token keyword">from</span> <span class="token string">&#39;yys-element-components/notification&#39;</span>
+<span class="token keyword">import</span> <span class="token string">&#39;yys-element-components/notification/style.css&#39;</span>
+<span class="token comment">// min.ts中注册</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>notification<span class="token punctuation">)</span>
+</code></pre></div><h3 id="基本用法" tabindex="-1">基本用法 <a class="header-anchor" href="#基本用法" aria-hidden="true">#</a></h3><br><div style="padding:1em;margin:1em;border:1px solid #eee;"><!--[--><div class="notification-demo" data-v-0b9137bc><!----></div><!----><!----><!----><!----><!--]--></div><!-- 页面示例脚本（实际页面中使用） --><h3 id="代码示例" tabindex="-1">代码示例 <a class="header-anchor" href="#代码示例" aria-hidden="true">#</a></h3><div class="language-html"><pre><code>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>notification-demo<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>notification</span> <span class="token attr-name">:value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>50<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">#default</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>chooseList</span>
+          <span class="token attr-name">:list</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>list<span class="token punctuation">&quot;</span></span>
+          <span class="token attr-name">:actions</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>actions<span class="token punctuation">&quot;</span></span>
+          <span class="token attr-name">@clickItem</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>clickItem<span class="token punctuation">&quot;</span></span>
+          <span class="token attr-name">@clickAction</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>clickAction<span class="token punctuation">&quot;</span></span>
+        <span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>chooseList</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>notification</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="language-ts"><pre><code><span class="token operator">&lt;</span>script setup lang<span class="token operator">=</span><span class="token string">&quot;ts&quot;</span><span class="token operator">&gt;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> list<span class="token punctuation">,</span> actions <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;./data&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">let</span> <span class="token function-variable function">clickItem</span> <span class="token operator">=</span> <span class="token punctuation">(</span>val<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;clickItem&quot;</span><span class="token punctuation">,</span> val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">let</span> <span class="token function-variable function">clickAction</span> <span class="token operator">=</span> <span class="token punctuation">(</span>val<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;clickAction&quot;</span><span class="token punctuation">,</span> val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token comment">// 数据示例</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> list <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+
+    title<span class="token operator">:</span> <span class="token string">&#39;通知&#39;</span><span class="token punctuation">,</span>
+    content<span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            avatar<span class="token operator">:</span> <span class="token string">&#39;https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&amp;h=150&amp;fit=crop&amp;crop=face&#39;</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;蒂姆·库克回复了你的邮件&#39;</span><span class="token punctuation">,</span>
+            time<span class="token operator">:</span> <span class="token string">&#39;2019-05-08 14:33:18&#39;</span><span class="token punctuation">,</span>
+
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            avatar<span class="token operator">:</span> <span class="token string">&#39;https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&amp;h=150&amp;fit=crop&amp;crop=face&#39;</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;乔纳森·伊夫邀请你参加会议&#39;</span><span class="token punctuation">,</span>
+            time<span class="token operator">:</span> <span class="token string">&#39;2019-05-08 14:33:18&#39;</span><span class="token punctuation">,</span>
+
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            avatar<span class="token operator">:</span> <span class="token string">&#39;https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&amp;h=150&amp;fit=crop&amp;crop=face&#39;</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;斯蒂夫·沃兹尼亚克已批准了你的休假申请&#39;</span><span class="token punctuation">,</span>
+            time<span class="token operator">:</span> <span class="token string">&#39;2019-05-08 14:33:18&#39;</span><span class="token punctuation">,</span>
+
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            avatar<span class="token operator">:</span> <span class="token string">&#39;https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&amp;h=150&amp;fit=crop&amp;crop=face&#39;</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;蒂姆·库克回复了你的邮件&#39;</span><span class="token punctuation">,</span>
+            time<span class="token operator">:</span> <span class="token string">&#39;2019-05-08 14:33:18&#39;</span><span class="token punctuation">,</span>
+
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            avatar<span class="token operator">:</span> <span class="token string">&#39;https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&amp;h=150&amp;fit=crop&amp;crop=face&#39;</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;乔纳森·伊夫邀请你参加会议&#39;</span><span class="token punctuation">,</span>
+            time<span class="token operator">:</span> <span class="token string">&#39;2019-05-08 14:33:18&#39;</span><span class="token punctuation">,</span>
+
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            avatar<span class="token operator">:</span> <span class="token string">&#39;https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&amp;h=150&amp;fit=crop&amp;crop=face&#39;</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;斯蒂夫·沃兹尼亚克已批准了你的休假申请&#39;</span><span class="token punctuation">,</span>
+            time<span class="token operator">:</span> <span class="token string">&#39;2019-05-08 14:33:18&#39;</span><span class="token punctuation">,</span>
+
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            avatar<span class="token operator">:</span> <span class="token string">&#39;https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&amp;h=150&amp;fit=crop&amp;crop=face&#39;</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;蒂姆·库克回复了你的邮件&#39;</span><span class="token punctuation">,</span>
+            time<span class="token operator">:</span> <span class="token string">&#39;2019-05-08 14:33:18&#39;</span><span class="token punctuation">,</span>
+
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            avatar<span class="token operator">:</span> <span class="token string">&#39;https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=150&amp;h=150&amp;fit=crop&amp;crop=face&#39;</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;乔纳森·伊夫邀请你参加会议&#39;</span><span class="token punctuation">,</span>
+            time<span class="token operator">:</span> <span class="token string">&#39;2019-05-08 14:33:18&#39;</span><span class="token punctuation">,</span>
+
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            avatar<span class="token operator">:</span> <span class="token string">&#39;https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&amp;h=150&amp;fit=crop&amp;crop=face&#39;</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;斯蒂夫·沃兹尼亚克已批准了你的休假申请&#39;</span><span class="token punctuation">,</span>
+            time<span class="token operator">:</span> <span class="token string">&#39;2019-05-08 14:33:18&#39;</span><span class="token punctuation">,</span>
+
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            avatar<span class="token operator">:</span> <span class="token string">&#39;https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&amp;h=150&amp;fit=crop&amp;crop=face&#39;</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;系统更新通知：新版本即将发布&#39;</span><span class="token punctuation">,</span>
+            time<span class="token operator">:</span> <span class="token string">&#39;2019-05-07 09:15:42&#39;</span><span class="token punctuation">,</span>
+
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    title<span class="token operator">:</span> <span class="token string">&#39;关注&#39;</span><span class="token punctuation">,</span>
+    content<span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            avatar<span class="token operator">:</span> <span class="token string">&#39;https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&amp;h=150&amp;fit=crop&amp;crop=face&#39;</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;埃隆·马斯克发布了新动态&#39;</span><span class="token punctuation">,</span>
+            desc<span class="token operator">:</span> <span class="token string">&#39;SpaceX星舰最新进展分享&#39;</span><span class="token punctuation">,</span>
+            time<span class="token operator">:</span> <span class="token string">&#39;2019-05-08 16:45:22&#39;</span><span class="token punctuation">,</span>
+            tag<span class="token operator">:</span> <span class="token string">&#39;新动态&#39;</span><span class="token punctuation">,</span>
+            tagType<span class="token operator">:</span> <span class="token string">&#39;danger&#39;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            avatar<span class="token operator">:</span> <span class="token string">&#39;https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&amp;h=150&amp;fit=crop&amp;crop=face&#39;</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;比尔·盖茨关注了你&#39;</span><span class="token punctuation">,</span>
+            desc<span class="token operator">:</span> <span class="token string">&#39;微软创始人，慈善家&#39;</span><span class="token punctuation">,</span>
+            time<span class="token operator">:</span> <span class="token string">&#39;2019-05-08 10:20:35&#39;</span><span class="token punctuation">,</span>
+            tag<span class="token operator">:</span> <span class="token string">&#39;互相关注&#39;</span><span class="token punctuation">,</span>
+            tagType<span class="token operator">:</span> <span class="token string">&#39;success&#39;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            avatar<span class="token operator">:</span> <span class="token string">&#39;https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&amp;h=150&amp;fit=crop&amp;crop=face&#39;</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;萨提亚·纳德拉点赞了你的文章&#39;</span><span class="token punctuation">,</span>
+            desc<span class="token operator">:</span> <span class="token string">&#39;关于云计算未来发展的见解&#39;</span><span class="token punctuation">,</span>
+            time<span class="token operator">:</span> <span class="token string">&#39;2019-05-07 18:30:15&#39;</span><span class="token punctuation">,</span>
+            tag<span class="token operator">:</span> <span class="token string">&#39;热门&#39;</span><span class="token punctuation">,</span>
+            tagType<span class="token operator">:</span> <span class="token string">&#39;primary&#39;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+    title<span class="token operator">:</span> <span class="token string">&#39;待办&#39;</span><span class="token punctuation">,</span>
+    content<span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;任务名称&#39;</span><span class="token punctuation">,</span>
+            desc<span class="token operator">:</span> <span class="token string">&#39;任务需要在 2017-01-12 20:00 前启动&#39;</span><span class="token punctuation">,</span>
+            tag<span class="token operator">:</span> <span class="token string">&#39;未开始&#39;</span><span class="token punctuation">,</span>
+            tagType<span class="token operator">:</span> <span class="token string">&#39;warning&#39;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;第三方紧急代码变更&#39;</span><span class="token punctuation">,</span>
+            desc<span class="token operator">:</span> <span class="token string">&#39;冠霖提交于 2017-01-06, 需在 2017-01-07 前完成代码变更任务&#39;</span><span class="token punctuation">,</span>
+            tag<span class="token operator">:</span> <span class="token string">&#39;马上到期&#39;</span><span class="token punctuation">,</span>
+            tagType<span class="token operator">:</span> <span class="token string">&#39;danger&#39;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;信息安全考试&#39;</span><span class="token punctuation">,</span>
+            desc<span class="token operator">:</span> <span class="token string">&#39;指派竹尔于 2017-01-09 前完成更新并发布&#39;</span><span class="token punctuation">,</span>
+            tag<span class="token operator">:</span> <span class="token string">&#39;进行中&#39;</span><span class="token punctuation">,</span>
+            tagType<span class="token operator">:</span> <span class="token string">&#39;primary&#39;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            title<span class="token operator">:</span> <span class="token string">&#39;项目进度报告&#39;</span><span class="token punctuation">,</span>
+            desc<span class="token operator">:</span> <span class="token string">&#39;需要准备季度项目进度报告并提交给管理层&#39;</span><span class="token punctuation">,</span>
+            tag<span class="token operator">:</span> <span class="token string">&#39;待审核&#39;</span><span class="token punctuation">,</span>
+            tagType<span class="token operator">:</span> <span class="token string">&#39;info&#39;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+<span class="token comment">// 操作选项</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> actions <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        text<span class="token operator">:</span> <span class="token string">&#39;清空代办&#39;</span><span class="token punctuation">,</span>
+        icon<span class="token operator">:</span> <span class="token string">&#39;delete&#39;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        text<span class="token operator">:</span> <span class="token string">&#39;查看更多&#39;</span><span class="token punctuation">,</span>
+        icon<span class="token operator">:</span> <span class="token string">&#39;more&#39;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+</code></pre></div><h3 id="api" tabindex="-1">API <a class="header-anchor" href="#api" aria-hidden="true">#</a></h3><h3 id="事件props" tabindex="-1">事件props <a class="header-anchor" href="#事件props" aria-hidden="true">#</a></h3><table><thead><tr><th style="text-align:left;">属性</th><th>说明</th><th>类型</th><th>可选值</th><th>默认值</th></tr></thead><tbody><tr><td style="text-align:left;">icon</td><td>通知图标</td><td>String</td><td>-</td><td>Bell</td></tr><tr><td style="text-align:left;">value</td><td>通知数量</td><td>String, Number</td><td>-</td><td>-</td></tr><tr><td style="text-align:left;">max</td><td>最大值</td><td>Number</td><td>-</td><td>99</td></tr><tr><td style="text-align:left;">isDot</td><td>最大值</td><td>是否显示小圆点</td><td>true/false</td><td>false</td></tr></tbody></table><h3 id="插槽" tabindex="-1">插槽 <a class="header-anchor" href="#插槽" aria-hidden="true">#</a></h3><table><thead><tr><th style="text-align:left;">属性</th><th>说明</th></tr></thead><tbody><tr><td style="text-align:left;">default</td><td>点击图标之后显示的内容</td></tr></tbody></table><h3 id="api-1" tabindex="-1">API <a class="header-anchor" href="#api-1" aria-hidden="true">#</a></h3><h3 id="事件list" tabindex="-1">事件list <a class="header-anchor" href="#事件list" aria-hidden="true">#</a></h3><table><thead><tr><th style="text-align:left;">属性</th><th>说明</th><th>类型</th><th>可选值</th><th>默认值</th></tr></thead><tbody><tr><td style="text-align:left;">list</td><td>列表内容</td><td>ListOptions[]</td><td>必填</td><td>-</td></tr><tr><td style="text-align:left;">actions</td><td>操作内容</td><td>ActionOptions[]</td><td>-</td><td>-</td></tr></tbody></table><h3 id="listoptions-数据格式" tabindex="-1">ListOptions 数据格式 <a class="header-anchor" href="#listoptions-数据格式" aria-hidden="true">#</a></h3><table><thead><tr><th style="text-align:left;">key</th><th>说明</th><th>类型</th></tr></thead><tbody><tr><td style="text-align:left;">title</td><td>tab的标题</td><td>string</td></tr><tr><td style="text-align:left;">content</td><td>列表的类</td><td>listItem[]</td></tr></tbody></table><h3 id="listitem-数据格式" tabindex="-1">listItem 数据格式 <a class="header-anchor" href="#listitem-数据格式" aria-hidden="true">#</a></h3><table><thead><tr><th style="text-align:left;">key</th><th>说明</th><th>类型</th></tr></thead><tbody><tr><td style="text-align:left;">title</td><td>头像</td><td>string</td></tr><tr><td style="text-align:left;">avatar</td><td>标题</td><td>string</td></tr><tr><td style="text-align:left;">desc</td><td>描述</td><td>string</td></tr><tr><td style="text-align:left;">time</td><td>时间</td><td>string</td></tr><tr><td style="text-align:left;">tag</td><td>标签内容</td><td>string</td></tr><tr><td style="text-align:left;">tagType</td><td>列表的类</td><td>&#39;&#39; / success / info / warning / danger</td></tr></tbody></table><h3 id="actionoptions-数据格式" tabindex="-1">ActionOptions 数据格式 <a class="header-anchor" href="#actionoptions-数据格式" aria-hidden="true">#</a></h3><table><thead><tr><th style="text-align:left;">key</th><th>说明</th><th>类型</th></tr></thead><tbody><tr><td style="text-align:left;">text</td><td>操作的标题</td><td>string</td></tr><tr><td style="text-align:left;">icon</td><td>操作的图标</td><td>string</td></tr></tbody></table></div></div><footer class="page-footer" data-v-7eddb2c4 data-v-fb8d84c6><div class="edit" data-v-fb8d84c6><div class="edit-link" data-v-fb8d84c6 data-v-1ed99556><!----></div></div><div class="updated" data-v-fb8d84c6><!----></div></footer><div class="next-and-prev-link" data-v-7eddb2c4 data-v-38ede35f><div class="container" data-v-38ede35f><div class="prev" data-v-38ede35f><a class="link" href="/chooseTrend/" data-v-38ede35f><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="icon icon-prev" data-v-38ede35f><path d="M19,11H7.4l5.3-5.3c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-7,7c-0.1,0.1-0.2,0.2-0.2,0.3c-0.1,0.2-0.1,0.5,0,0.8c0.1,0.1,0.1,0.2,0.2,0.3l7,7c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3c0.4-0.4,0.4-1,0-1.4L7.4,13H19c0.6,0,1-0.4,1-1S19.6,11,19,11z"></path></svg><span class="text" data-v-38ede35f>趋势标记</span></a></div><div class="next" data-v-38ede35f><a class="link" href="/list/" data-v-38ede35f><span class="text" data-v-38ede35f>通知列表</span><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="icon icon-next" data-v-38ede35f><path d="M19.9,12.4c0.1-0.2,0.1-0.5,0-0.8c-0.1-0.1-0.1-0.2-0.2-0.3l-7-7c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l5.3,5.3H5c-0.6,0-1,0.4-1,1s0.4,1,1,1h11.6l-5.3,5.3c-0.4,0.4-0.4,1,0,1.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l7-7C19.8,12.6,19.9,12.5,19.9,12.4z"></path></svg></a></div></div></div><!--[--><!--]--></div></main></div><!----><!--]--></div>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"choosearea_index.md\":\"eaf4a6c8\",\"choosecalendar_index.md\":\"a3bc63ff\",\"choosecity_index.md\":\"9f8fab95\",\"choosedata_index.md\":\"fcc39e8b\",\"choosefrom_index.md\":\"1090e919\",\"chooseicon_index.md\":\"ffb13493\",\"choosemenu_index.md\":\"79c94314\",\"chooseprogress_index.md\":\"68e954ae\",\"choosetable_index.md\":\"ae368d96\",\"choosetime_index.md\":\"db8a152e\",\"choosetrend_index.md\":\"d6e98900\",\"index.md\":\"2cebc498\",\"intro_index.md\":\"39cf8605\",\"list_index.md\":\"295b48cc\",\"modalfrom_index.md\":\"5abe79d5\",\"notification_index.md\":\"0ecafd5d\",\"quickstart_index.md\":\"39466b87\"}")</script>
+    <script type="module" async src="/assets/app.506e725f.js"></script>
+    
+  </body>
+</html>
